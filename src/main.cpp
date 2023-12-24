@@ -12,6 +12,9 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(13,1);
+  delay(10000);
+  digitalWrite(13,0);
+  delay(10000);
 }
 
 // put function definitions here:
